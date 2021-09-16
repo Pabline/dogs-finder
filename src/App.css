@@ -15,13 +15,56 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  max-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-main {
+  max-width: 100vw;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-list {
+  max-width: 20vw;
+  height: 85vh;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  scroll-behavior: smooth;
+  border-right: 1px grey solid;
+
+}
+
+#breed-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  max-height: 80vh;
+  width: 19vw;
+  scroll-behavior: auto;
+  overflow: scroll;
+}
+
+.App-content {
+  max-width: 80vw;
+  width: 80vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .App-link {
